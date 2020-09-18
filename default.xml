@@ -3,6 +3,6 @@
     <include name="aosp.xml"/>
 
     <remote  name="origin"
-             fetch="ssh://git@github.com:IGRAOS">
+             fetch="ssh://git@github.com:IGRAOS"/>
 
 </manifest>
