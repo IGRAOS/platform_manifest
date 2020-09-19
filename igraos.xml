@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin"
+    <remote name="github"
             fetch="ssh://git@github.com:IGRAOS"
             revision="master"/>
 
     <remove-project name="platform/packages/apps/Launcher3" />
 
-    <project path="packages/apps/Launcher3" name="Launcher3" />
-    <project path="device/igraos/rpi4" name="device_igraos_rpi4"/>
-    <project path="vendor/igraos" name="vendor_igraos"/>
+    <project path="packages/apps/Launcher3" name="Launcher3" remote="github"/>
+    <project path="device/igraos/rpi4" name="device_igraos_rpi4" remote="github"/>
+    <project path="vendor/igraos" name="vendor_igraos" remote="github"/>
 </manifest>
