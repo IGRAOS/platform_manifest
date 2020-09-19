@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="origin"
+            fetch="ssh://git@github.com:IGRAOS"
+            revision="master"/>
+
+    <extend-project path="packages/apps/Launcher3" name="Launcher3" />
+    <project path="device/igraos/rpi4" name="device_igraos_rpi4"/>
+    <project path="vendor/igraos" name="vendor_igraos"/>
+</manifest>
