@@ -4,9 +4,18 @@
             fetch="ssh://git@github.com/IGRAOS"
             revision="master"/>
 
+    <remote name="lineage"
+            fetch="ssh://git@github.com/lineage-rpi"
+            revision="lineage-16.0"/>
+
+    <default remote="github"
+             sync-j="8" />
+
     <remove-project name="platform/packages/apps/Launcher3" />
-    
+
+    <project path="vendor/brcm" name="lineage-rpi/proprietary_vendor_brcm" remote="lineage" />
+
     <project path="packages/apps/igrauncher" name="igrauncher" />
-    <project path="device/anydevices/rpi4" name="device_anydevices_rpi4" remote="github"/>
-    <project path="vendor/anydevices" name="vendor_anydevices" remote="github"/>
+    <project path="device/anydevices/rpi4" name="device_anydevices_rpi4"/>
+<!--<project path="vendor/anydevices" name="vendor_anydevices"/>-->
 </manifest>
