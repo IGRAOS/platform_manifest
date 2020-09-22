@@ -4,9 +4,9 @@
             fetch="ssh://git@github.com/IGRAOS"
             revision="master"/>
 
-    <remove-project name="platform/packages/apps/TV" />
+    <remove-project name="platform/packages/apps/Launcher3" />
     
-    <project path="packages/apps/TV" name="IGRAUI" />
+    <project path="packages/apps/IgraUI" name="IGRAUI" />
     <project path="device/anydevices/rpi4" name="device_anydevices_rpi4" remote="github"/>
     <project path="vendor/anydevices" name="vendor_anydevices" remote="github"/>
 </manifest>
